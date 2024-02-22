@@ -6,7 +6,7 @@
         padding: 1%;
         width: auto;
         -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color:blue;
+        -webkit-text-stroke-color: blue;
         color: #fff;
         text-decoration: underline blue .3vh;
     }
@@ -64,8 +64,48 @@ img {
                     border: none;
                 }
 
-                & p {
-                    text-align: justify;
+                .content {
+                    display: grid;
+                    grid-template-columns: repeat(9, 1fr);
+                    height: 10vh;
+
+                    .fech {
+                        width: auto;
+                        grid-column: 1/2;
+
+                        .mes {
+                            background-color: blue;
+                            color: #fff;
+                            padding: 2% 4%;
+                            text-align: center;
+                        }
+
+                        .day {
+                            padding: 10% 2%;
+                            text-align: center;
+                        }
+
+                        .year {
+                            text-align: center;
+                            padding: 2% 0;
+                            border: 2px solid gray;
+                            border-radius: 5px;
+                        }
+                    }
+
+                    .content-text{
+                        grid-column: 2/8;
+                        padding: 0 2%;
+                    }
+
+                    .img-news{
+                        border-radius: 5px;
+                        grid-column: 8/10;
+                        height: 100%;
+                        width: 100%;
+                        overflow: hidden;
+                        object-fit: cover;
+                    }
                 }
             }
         }

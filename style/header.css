@@ -55,50 +55,6 @@ header {
                 0 0 180px rgba(38, 104, 127, 1);
         }
     }
-
-    .menu-li {
-        height: 5vh;
-        width: 100%;
-        background-color: blue;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        & ul {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            list-style: none;
-            gap: 6vh;
-
-            & li, a {
-                font-size: 2vh;
-                color: #fff;
-                cursor: pointer;
-                text-decoration: .2vh underline #fff;
-                transition: all ease .7s;
-
-                & ul {
-                    transition: all ease .7s;
-                    position: absolute;
-                    display: none;
-                    gap: 0;
-                    flex-direction: column;
-                    align-items: start;
-                    background-color: blue;
-                }
-            }
-
-            & li:hover {
-                color: goldenrod;
-                text-decoration: .2vh underline goldenrod;
-
-                & ul {
-                    display: flex;
-                }
-            }
-        }
-    }
 }
 
 @keyframes show {
@@ -130,3 +86,54 @@ div {
     animation-fill-mode: both;
 }
 */
+
+.menu-li{
+	margin: 0;
+	background-color: blue;
+	font-size: 20px;
+    padding: 0 10%;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	text-decoration: underline #fff 2px;
+}
+.menu-horizontal > li:hover{
+	& a{
+        /**/
+    }
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgb(255, 255, 255);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	& a{
+        color: skyblue;
+    }
+}
+
+.menu-vertical li a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+    color: black;
+}
+
+.select{
+    color: goldenrod;
+}
+.selectn{
+	color: white;
+}
