@@ -182,5 +182,6 @@ img {
         font-size: 4vh;
         text-align: center;
         color: #fff;
+        text-decoration: underline #fff .2vh;
     }
 }
