@@ -4,9 +4,15 @@
         font-size: 4vh;
         text-align: center;
         padding: 1%;
+        width: auto;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color:blue;
+        color: #fff;
+        text-decoration: underline blue .3vh;
     }
 
     & p {
+        color: blue;
         padding: 0 5%;
         padding-bottom: 1%;
     }
@@ -48,8 +54,14 @@ img {
                 & h4 {
                     font-size: 3vh;
                     color: blue;
-                    text-decoration: underline yellow .5vh;
                     text-align: center;
+                }
+
+                & hr {
+                    margin: .5% 0;
+                    height: .3vh;
+                    background-color: rgb(255, 170, 0);
+                    border: none;
                 }
 
                 & p {
@@ -155,10 +167,10 @@ img {
             gap: 1vh;
             padding: 1%;
 
-            & a{
+            & a {
                 height: 5vh;
 
-                & img{
+                & img {
                     object-fit: cover;
                     height: 100%;
                     border-radius: 50%;
@@ -168,17 +180,17 @@ img {
     }
 }
 
-#map{
+#map {
     width: 100%;
     height: 30vh;
     padding: 2%;
 }
 
-#siti-info{
+#siti-info {
     background-color: blue;
     padding: 2%;
 
-    & h4{
+    & h4 {
         font-size: 4vh;
         text-align: center;
         color: #fff;
