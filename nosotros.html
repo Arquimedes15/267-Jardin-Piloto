@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>297 Jardin Piloto</title>
+    <link rel="icon" type="image/png" href="./imagenes/l-jp.png">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/nosotros.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="reload-prev">
+        <div></div>
+        <img loading="lazy" src="./imagenes/l-jp.png" alt="">
+    </div>
+
+    <!--Header-->
+
+    <header>
+        <div class="telf">telefono de contacto: 931106193 / 94062491</div>
+        <hr>
+        <div class="name-logo">
+            <span>Institucion Educativa Inicial</span> <img alt="Logo de jardin Piloto" src="./imagenes/l-jp.png"><span>
+                297
+                Jardin Piloto</span>
+        </div>
+        <nav class="menu-li">
+            <ul class="menu-horizontal">
+                <li><a class="selectn" href="./index.html">Inicio</a></li>
+                <li><a class="select" href="">Nosotros</a>
+                    <ul class="menu-vertical">
+                        <li><a href="">MISION</a></li>
+                        <li><a href="">VISION</a></li>
+                        <li><a href="">VALORES</a></li>
+                    </ul>
+                </li>
+                <li><a class="selectn" href="">Area Academica</a></li>
+                <li><a class="selectn" href="">Noticias</a></li>
+                <li><a class="selectn" href="">Sitio de Iteres</a>
+                    <ul class="menu-vertical">
+                        <li><a href="">Line 1</a></li>
+                        <li><a href="">Line 2</a></li>
+                        <li><a href="">Line 3</a></li>
+                        <li><a href="">Line 4</a></li>
+                    </ul>
+                </li>
+                <li><a class="selectn" href="">Tramite Documentario</a></li>
+                <li><a class="selectn" href="">Aula Virtual</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--Slider-->
+
+    <div id="slider_1">
+        <div class="slider"></div>
+        <div class="buttons">
+            <button class="prev">Anterior</button>
+            <button class="next">Siguiente</button>
+        </div>
+        <div class="indicator-buttons">
+            <!-- <button class="indicator active">1</button>-->
+        </div>
+    </div>
+
+
+    <!--Main-nosotros-->
+
+    <main>
+        <h2 class="init-nosotros">Nosotros</h2>
+        <div class="content-info">
+
+            <div class="card-mv">
+                <h3>Misión</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laudantium dolor necessitatibus
+                    reprehenderit praesentium perferendis recusandae vero quae blanditiis pariatur cumque ipsa, harum,
+                    architecto culpa est quisquam aut atque eos!</p>
+                <div class="img-content">
+                    <img src="" alt="Mortal Kombat">
+                    <span>Name name</span>
+                </div>
+            </div>
+
+            <div class="card-mv">
+                <h3>Visión</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laudantium dolor necessitatibus
+                    reprehenderit praesentium perferendis recusandae vero quae blanditiis pariatur cumque ipsa, harum,
+                    architecto culpa est quisquam aut atque eos!</p>
+                <div class="img-content">
+                    <img src="" alt="Mortal Kombat">
+                    <span>Name name</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="content-footer">
+            <h5>ENLACES DE INTERES</h5>
+            <ul>
+                <li><a href="">Texto de rellerno</a></li>
+                <li><a href="">Texto de rellerno</a></li>
+                <li><a href="">Texto de rellerno</a></li>
+            </ul>
+        </div>
+        <div class="content-footer">
+            <h5>CONTACTANOS</h5>
+            <ul>
+                <li>Texto de rellerno</li>
+                <li>Texto de rellerno</li>
+                <li>Texto de relleno</li>
+            </ul>
+        </div>
+        <div class="content-footer">
+            <h5>UBIQUENOS</h5>
+            <p>Lo mismo que lo anteriores creo no lo se </p>
+        </div>
+    </div>
+    <footer>
+        <p>©copyright - Institucion Educativa Inicial "297 Jardin Piloto"<br>@Soporte Maldonado<br>Todos los Derechos
+            Reservado</p>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="js/modal.js"></script>
+<script src="js/slider.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        const loader = document.getElementById("reload-prev");
+        loader.style.display = "none";
+    });
+    document.startViewTransition(() => updateTheDOMSomehow());
+</script>

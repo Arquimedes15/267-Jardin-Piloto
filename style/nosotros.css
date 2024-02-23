@@ -1,0 +1,57 @@
+main {
+    background: url("../imagenes/fondo/fondo pagina web.jpg");
+    background-size: contain;
+}
+
+/*TEXT NOSOTROS*/
+
+.init-nosotros {
+    text-align: center;
+    font-size: 3vh;
+    color: blue;
+    padding: 1%;
+    text-decoration: underline .5vh blue;
+}
+
+
+/*Content card*/
+
+.content-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    padding: 2% 2%;
+
+    .card-mv{
+        width: 45%;
+        background-color: #fff;
+        box-shadow: 5px 5px 5px 5px rgba(17, 0, 255, 0.2);
+        border-radius: 15px;
+        border: none;
+        padding: 1%;
+        position: relative;
+        display: flex;
+
+        & h3 {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: blue;
+
+            border-radius: 15px;
+            padding: 1% 6%;
+            color: #fff;
+        }
+
+        &p{
+            width: 55%;
+        }
+
+        .img-content{
+            width: 40%;
+            height: 100%;
+        }
+    }
+}
