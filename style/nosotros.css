@@ -7,7 +7,7 @@ main {
 
 .init-nosotros {
     text-align: center;
-    font-size: 3vh;
+    font-size: 4vh;
     color: blue;
     padding: 1%;
     text-decoration: underline .5vh blue;
@@ -16,22 +16,23 @@ main {
 
 /*Content card*/
 
-.content-info{
+.content-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
     padding: 2% 2%;
 
-    .card-mv{
+    .card-mv {
         width: 45%;
         background-color: #fff;
         box-shadow: 5px 5px 5px 5px rgba(17, 0, 255, 0.2);
         border-radius: 15px;
         border: none;
-        padding: 1%;
+        padding: 2% 1%;
         position: relative;
         display: flex;
+        justify-content: space-between;
 
         & h3 {
             position: absolute;
@@ -45,13 +46,122 @@ main {
             color: #fff;
         }
 
-        &p{
+        & p {
             width: 55%;
         }
 
-        .img-content{
+        .img-content {
             width: 40%;
             height: 100%;
+            position: relative;
+
+            & img {
+                border-radius: 15px;
+                width: 100%;
+                height: 100%;
+            }
+
+            & span{
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%) translateY(50%);
+                background-color: #fff;
+                border-radius: 20px;
+                color: blue;
+                padding: 1% 5%;
+            }
+        }
+    }
+}
+
+.content-video{
+    background-color: blue;
+    display: flex;
+    padding: 15px 0 15px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    & h5{
+        color: #fff;
+        font-size: 4vh;
+    }
+
+    & h5:nth-child(2){
+        text-decoration: underline #fff .3vh;
+    }
+
+    & iframe{
+        width: 92%;
+        border: none;
+        padding: 1% 2%;
+        margin: 1% 0 0 0;
+        background: #fff;
+        height: 60vh;
+    }
+}
+
+.content-card-other{
+
+    & h5{
+        text-decoration: underline .3vh blue;
+        color: blue;
+        text-align: center;
+        font-size: 4vh;
+        padding: 1%;
+    }
+
+    .content-card{
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        padding:  0 0 2% 0;
+
+        .card{
+            width: 20%;
+            height: 30vh;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            border-radius: 15px;
+            overflow: hidden;
+
+            & a{
+                padding: 5%;
+                text-align: center;
+                color: #fff;
+                font-size: 3vh;
+                text-decoration: none;
+            }
+        }
+
+        .card:nth-child(1){
+            background: url("https://avatarfiles.alphacoders.com/119/thumb-1920-119537.jpg");
+            background-size: cover;
+
+            & a{
+                background-color: rgba(0, 255, 255, 0.5);
+            }
+        }
+
+        .card:nth-child(2){
+            background: url("https://avatarfiles.alphacoders.com/119/thumb-1920-119537.jpg");
+            background-size: cover;
+
+            & a{
+                background-color: rgba(0, 0, 255, 0.5);
+            }
+        }
+
+        .card:nth-child(3){
+            background: url("https://avatarfiles.alphacoders.com/119/thumb-1920-119537.jpg");
+            background-size: cover;
+
+            & a{
+                background-color: rgba(255, 72, 0, 0.5);
+            }
         }
     }
 }
