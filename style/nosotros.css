@@ -165,3 +165,48 @@ main {
         }
     }
 }
+
+
+
+@media (max-width: 1024px){
+    .content-info{
+        display: flex;
+        flex-direction: column;
+
+        gap: 2vh;
+
+        .card-mv{
+            width: 100%;
+        }
+    }
+
+    .content-video{
+
+        & h5{
+            text-align: center;
+        }
+
+        & iframe{
+            height: 40vh;
+        }
+    }
+
+    .content-card-other{
+
+        .content-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 2%;
+            gap: 2vh;
+            
+            .card{
+
+                width: 100%;
+
+            }
+        }
+
+    }
+}

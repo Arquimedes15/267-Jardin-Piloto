@@ -129,3 +129,16 @@
 button {
     cursor: pointer;
 }
+
+@media (max-width: 1024px){
+    
+    #modal-font{
+    
+        & #content-modal{
+            width: 70%;
+            height: 80vh;
+            
+        }
+    }
+    
+}

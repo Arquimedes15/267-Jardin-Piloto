@@ -94,12 +94,12 @@ img {
                         }
                     }
 
-                    .content-text{
+                    .content-text {
                         grid-column: 2/8;
                         padding: 0 2%;
                     }
 
-                    .img-news{
+                    .img-news {
                         border-radius: 5px;
                         grid-column: 8/10;
                         height: 100%;
@@ -237,4 +237,42 @@ img {
         color: #fff;
         text-decoration: underline #fff .2vh;
     }
+}
+
+
+@media (max-width: 1024px) {
+
+    .main {
+        background: url("../imagenes/fondo/fondo pagina web.jpg");
+        background-size: contain;
+        width: 100%;
+
+        .main-main {
+            flex-direction: column;
+
+            .content-news,
+            .des-direct{
+                width: 90%;
+                margin: 2% 0 0 0;
+                height: 40vh;
+            }
+        }
+
+        .main-main-main{
+
+            flex-direction: column;
+            justify-content: center;
+
+            align-items: center;
+
+            
+            .cards{
+                width: 90%;
+                margin: 0 0 2% 0;
+            }
+
+        }
+
+    }
+
 }

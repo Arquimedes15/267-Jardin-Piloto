@@ -99,7 +99,7 @@ div {
 	justify-content: space-around;
 }
 .menu-horizontal > li > a{
-	display: block;
+	display: flex;
 	padding: 15px 20px;
 	text-decoration: underline #fff 2px;
 }
@@ -136,4 +136,20 @@ div {
 }
 .selectn{
 	color: white;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: .5vh solid transparent;
+    border-right: .5vh solid transparent;
+    border-bottom: 1vh solid #fff;
+    transform: rotate(180deg) translateY(-100%) translateX(-25%);
+}/*lo mas dificil*/
+
+
+@media (max-width: 1024px){
+	header{
+        display: none;
+    }
 }

@@ -45,3 +45,42 @@ footer{
         color: #ffffff82;
     }
 }
+
+#reclamos-nose{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#ico-float{
+    position: fixed;
+    bottom: 1vh;
+    right: 1vh;
+    z-index: 99;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+    & a{
+        width: 5vh;
+        height: 5vh;
+
+        & img {
+            height: 100%;
+            width: 100%;
+
+            object-fit: cover;
+        }
+    }
+}
+
+
+@media (max-width: 1024px){
+
+    .footer{
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+}
