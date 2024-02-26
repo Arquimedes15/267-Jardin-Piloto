@@ -38,8 +38,8 @@
         </div>
         <nav class="menu-li">
             <ul class="menu-horizontal">
-                <li><a class="selectn" href="./index.html">Inicio</a></li>
-                <li><a class="select" href="./nosotros.html">Nosotros<div class="triangulo"></div></a>
+                <li><a class="select" href="/">Inicio</a></li>
+                <li><a class="selectn" href="./nosotros.html">Nosotros<div class="triangulo"></div></a>
                     <ul class="menu-vertical">
                         <li><a href="./nosotros.html">MISION</a></li>
                         <li><a href="./nosotros.html">VISION</a></li>
@@ -61,6 +61,65 @@
             </ul>
         </nav>
     </header>
+
+    <div class="header-fake">
+
+        <div class="bars">
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+
+        <div class="name-logo">
+            <img alt="Logo de jardin Piloto" src="./imagenes/l-jp.png">
+            <span>Institucion Educativa Inicial "297 Jardin Piloto"</span>
+        </div>
+
+    </div>
+
+    <div id="bar-menu-android">
+
+        <div>
+            <span id="cerr-menu-a">X</span>
+            <ul id="menu">
+                <li><a href="./index.html">Inicio</a></li>
+                <li>
+                    <details>
+                        <summary>Nosotros</summary>
+                        <ul class="submenu-a">
+                            <li>
+                                <a href="/nosotros.html">MISION</a>
+                            </li>
+                            <li>
+                                <a href="/nosotros.html">VISION</a>
+                            </li>
+                            <li>
+                                <a href="/nosotros.html">VALORES</a>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Área academica</summary>
+                        <ul class="submenu-a">
+                            <li>
+                                <a href="/nosotros.html">Noticias</a>
+                            </li>
+                            <li>
+                                <a href="/nosotros.html">Sitio de interés</a>
+                            </li>
+                        </ul>
+                </li>
+                <li><a href="./login.html">Tramite documentario</a></li>
+                <li><a href="./Aular.com">Aula virtual</a></li>
+            </ul>
+        </div>
+
+    </div>
+
 
 
     <!--Slider-->
@@ -112,7 +171,10 @@
             <h5>Educación integral con</h5>
             <h5>Acompañamiento permanente</h5>
 
-            <iframe loading="lazy" src="https://www.youtube.com/embed/Tvojv43SNWw?si=23pAAzTozlqynjfz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe loading="lazy" src="https://www.youtube.com/embed/Tvojv43SNWw?si=23pAAzTozlqynjfz"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
 
         </div>
 
@@ -122,7 +184,7 @@
             <h5>Educacion Integral</h5>
 
             <div class="content-card">
-                
+
                 <div class="card">
                     <a href="./index.html">Tecnologia</a>
                 </div>
@@ -168,7 +230,9 @@
         </div>
     </div>
     <footer>
-        <p>©copyright - Institucion Educativa Inicial "297 Jardin Piloto" / <a id="reclamos-nose" href="./login.html"><strong>Libro de Reclamaciones</strong></a><br>@Soporte Maldonado<br>Todos los Derechos
+        <p>©copyright - Institucion Educativa Inicial "297 Jardin Piloto" / <a id="reclamos-nose"
+                href="./login.html"><strong>Libro de Reclamaciones</strong></a><br>@Soporte Maldonado<br>Todos los
+            Derechos
             Reservado</p>
     </footer>
 
@@ -187,5 +251,16 @@
         const loader = document.getElementById("reload-prev");
         loader.style.display = "none";
     });
-    document.startViewTransition(() => updateTheDOMSomehow());
+    //document.startViewTransition(() => updateTheDOMSomehow());
+
+    let cerr_ma = document.querySelector("#cerr-menu-a")
+    let menuA_a = document.querySelector("#bar-menu-android");
+    let most_menuaA = document.querySelector(".bars")
+
+    cerr_ma.addEventListener("click", ()=>{
+        menuA_a.style.display = "none"
+    })
+    most_menuaA.addEventListener("click", ()=>{
+        menuA_a.style.display = "block"
+    })
 </script>
