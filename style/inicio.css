@@ -6,13 +6,13 @@
         padding: 1%;
         width: auto;
         -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: blue;
+        -webkit-text-stroke-color: #0556B1;
         color: #fff;
-        text-decoration: underline blue .3vh;
+        text-decoration: underline #0556B1 .3vh;
     }
 
     & p {
-        color: blue;
+        color: #0556B1;
         padding: 0 5%;
         padding-bottom: 1%;
     }
@@ -53,7 +53,7 @@ img {
 
                 & h4 {
                     font-size: 3vh;
-                    color: blue;
+                    color: #0556B1;
                     text-align: center;
                 }
 
@@ -67,14 +67,13 @@ img {
                 .content {
                     display: grid;
                     grid-template-columns: repeat(9, 1fr);
-                    height: 10vh;
 
                     .fech {
                         width: auto;
                         grid-column: 1/2;
 
                         .mes {
-                            background-color: blue;
+                            background-color: #0556B1;
                             color: #fff;
                             padding: 2% 4%;
                             text-align: center;
@@ -141,7 +140,7 @@ img {
 
             & h4 {
                 font-size: 3vh;
-                color: blue;
+                color: #0556B1;
                 text-decoration: underline yellow .5vh;
             }
 
@@ -156,7 +155,7 @@ img {
         display: flex;
         gap: 2%;
         justify-content: center;
-        background-color: blue;
+        background-color: #0556B1;
 
         .cards {
             height: 40vh;
@@ -180,7 +179,7 @@ img {
 
             & h5 {
                 font-size: 2vh;
-                color: blue;
+                color: #0556B1;
             }
 
             & hr {
@@ -198,7 +197,7 @@ img {
 
         & h5 {
             font-size: 3vh;
-            color: blue;
+            color: #0556B1;
             text-align: center;
         }
 
@@ -228,7 +227,7 @@ img {
 }
 
 #siti-info {
-    background-color: blue;
+    background-color: #0556B1;
     padding: 2%;
 
     & h4 {

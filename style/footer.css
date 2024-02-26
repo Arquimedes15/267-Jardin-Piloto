@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 2%;
-    background-color: navy;
+    background-color: #0556B1;
 
     .content-footer{
         display: flex;

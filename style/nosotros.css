@@ -8,9 +8,9 @@ main {
 .init-nosotros {
     text-align: center;
     font-size: 4vh;
-    color: blue;
+    color: #0556B1;
     padding: 1%;
-    text-decoration: underline .5vh blue;
+    text-decoration: underline .5vh #0556B1;
 }
 
 
@@ -39,7 +39,7 @@ main {
             top: 0;
             left: 50%;
             transform: translateX(-50%) translateY(-50%);
-            background-color: blue;
+            background-color: #0556B1;
 
             border-radius: 15px;
             padding: 1% 6%;
@@ -68,7 +68,7 @@ main {
                 transform: translateX(-50%) translateY(50%);
                 background-color: #fff;
                 border-radius: 20px;
-                color: blue;
+                color: #0556B1;
                 padding: 1% 5%;
             }
         }
@@ -76,7 +76,7 @@ main {
 }
 
 .content-video{
-    background-color: blue;
+    background-color: #0556B1;
     display: flex;
     padding: 15px 0 15px 0;
     justify-content: center;
@@ -105,8 +105,8 @@ main {
 .content-card-other{
 
     & h5{
-        text-decoration: underline .3vh blue;
-        color: blue;
+        text-decoration: underline .3vh #0556B1;
+        color: #0556B1;
         text-align: center;
         font-size: 4vh;
         padding: 1%;
