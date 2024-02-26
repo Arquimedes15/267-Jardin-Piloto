@@ -13,7 +13,6 @@
 
     & #content-modal{
         width: 50%;
-        height: 80vh;
         padding: 1%;
         background-color: whitesmoke;
         border-radius: 10px;
@@ -136,8 +135,6 @@ button {
     
         & #content-modal{
             width: 70%;
-            height: 80vh;
-            
         }
     }
     

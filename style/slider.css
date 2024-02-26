@@ -48,14 +48,14 @@
     background: none;
     border: 3px solid #fff;
     border-radius: 50%;
-    width: 13px;
-    height: 13px;
+    width: 16px;
+    height: 16px;
     margin: 0 5px;
     cursor: pointer;
 }
 
 .indicator.active {
-    border: none;
+    border: 3px solid none;
     width: 16px;
     height: 16px;
     background-color: #fff;

@@ -144,9 +144,12 @@
     <main>
         <div class="bienvenido-init">
             <h2>Bienvenido a la Institucion Educativa Inicial "297 Jardin Piloto"</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis beatae iste repudiandae ex ab nihil at!
-                Deserunt commodi impedit architecto voluptatum voluptatibus unde enim. Cupiditate dignissimos nemo eum
-                cumque facilis.</p>
+            <p>¡Bienvenidos a la página web del Jardín Piloto del Colegio Inicial 297! Aquí encontrarán un espacio
+                dedicado al desarrollo integral de vuestros pequeños, donde la educación se entrelaza con la diversión y
+                el cariño. Somos más que un colegio, somos una familia comprometida con el crecimiento y bienestar de
+                cada niño que forma parte de nuestra comunidad. Explore nuestro sitio y descubra cómo cultivamos el amor
+                por el aprendizaje, fomentamos la creatividad y nutrimos el espíritu de exploración en un ambiente
+                seguro y acogedor. ¡Gracias por confiar en nosotros para el inicio del viaje educativo de sus hijos!</p>
         </div>
 
         <div class="main">
@@ -157,10 +160,10 @@
                 </div>
                 <div class="des-direct">
                     <img src="./imagenes/01.png" alt="">
-                    <h4>Name name name</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugiat voluptas pariatur
-                        voluptatum dignissimos ratione dolorem cumque fuga necessitatibus minima eius distinctio culpa,
-                        quisquam perspiciatis est aperiam. Placeat, odio quia!</p>
+                    <h4>Directora Edith Jurado Chaparro</h4>
+                    <p>En nuestro colegio, nos comprometemos a brindarias a sus pequeños no solo una educación de
+                        calidad, sino también un ambiente segura, cálido y estimulante donde puedan cruc aprender y
+                        explorar el mundo que los rodea</p>
                 </div>
             </div>
 
@@ -265,7 +268,23 @@
             </div>
             <hr>
             <div>
-                <p>ddadadadadadaadadad LINUX<br>Thumbs.db es parte de windows</p>
+                <p>
+                    <strong>¡Descubre el Mundo del Aprendizaje en el Jardín Piloto 297!</strong>
+                    <br><br>
+                    ¿Estás buscando un inicio brillante para el viaje educativo de tu hijo/a? ¡El Jardín Piloto 297 es
+                    el lugar perfecto para comenzar!
+                    <br><br>
+                    En nuestro jardín, fusionamos cuidadosamente el juego y la educación para brindar a los niños/as una
+                    experiencia de aprendizaje emocionante y enriquecedora.
+                    <br><br>
+                    ¡Mantente al tanto de todas nuestras emocionantes noticias y eventos a través de nuestro modal de
+                    noticias! Desde actividades creativas en el aula hasta divertidas excursiones educativas, te
+                    mantendremos informado de todo lo que sucede en nuestra vibrante comunidad escolar.
+                    <br><br>
+                    Únete a nosotros en este apasionante viaje educativo, donde cada día es una nueva aventura llena de
+                    descubrimientos y crecimiento. ¡Forma parte de nuestra familia en el Jardín Piloto 297!
+                    <br><br>
+                    ¡Contáctanos hoy mismo para obtener más información y reservar una visita!</p>
             </div>
             <hr>
             <div id="footer"><button id="cerr">Cerrar</button></div>
@@ -295,18 +314,18 @@
     let menuA_a = document.querySelector("#bar-menu-android");
     let most_menuaA = document.querySelector(".bars")
 
-    cerr_ma.addEventListener("click", ()=>{
+    cerr_ma.addEventListener("click", () => {
         menuA_a.style.display = "none"
     })
-    most_menuaA.addEventListener("click", ()=>{
+    most_menuaA.addEventListener("click", () => {
         menuA_a.style.display = "block"
     })
 
-    let  News = "";
+    let News = "";
     let noticias_zone = document.querySelector(".content-news")
 
-    for(let x = 0; x < 10; x++){
-        News +=`
+    for (let x = 0; x < 10; x++) {
+        News += `
                     <div class="news-cont">
                         <h4>Comunicado N°${x}</h4>
                         <hr>

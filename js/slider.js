@@ -36,22 +36,32 @@ nextSlider.addEventListener("click", () => {
     if (index == img.length || index > img.length) {
         index = 0;
         slider.style.transform = `translateX(-${0}%)`
+        botonSelect()
         return
     }
     slider.style.transform = `translateX(-${medi * index}%)`
+    botonSelect()
 })
 
 prev.addEventListener("click", () => {
     index--;
     if (index == -1 || index < -1) {
-        console.log(index)
         index = img.length - 1;
         slider.style.transform = `translateX(-${medi * (img.length - 1)}%)`
+        botonSelect()
         return
     }
     slider.style.transform = `translateX(+${medi * index}%)`
+    botonSelect()
 })
 
 function botonSelect(){
-    
+    but.innerHTML = ""
+    for (let x = 0; x < imgJson.length; x++) {
+        if (x == index) {
+            but.innerHTML += `<button class="indicator active"></button>`
+        } else {
+            but.innerHTML += `<button class="indicator"></button>`
+        }
+    }
 }
