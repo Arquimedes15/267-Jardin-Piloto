@@ -55,9 +55,3 @@ prev.addEventListener("click", () => {
 function botonSelect(){
     
 }
-
-
-document.querySelector("#reload").addEventListener("click", ()=>{
-    en("reload", "nose")
-    location.reload()
-})

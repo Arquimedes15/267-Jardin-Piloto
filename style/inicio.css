@@ -248,11 +248,15 @@ img {
         width: 100%;
 
         .main-main {
-            flex-direction: column;
+            flex-direction: column-reverse;
 
-            .content-news,
-            .des-direct{
+            .content-news{
                 width: 90%;
+                margin: 2% 0 0 0;
+                height: 40vh;
+            }
+            .des-direct{
+                width: 70%;
                 margin: 2% 0 0 0;
                 height: 40vh;
             }

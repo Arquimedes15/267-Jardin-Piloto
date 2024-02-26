@@ -54,7 +54,7 @@ footer{
 
 #ico-float{
     position: fixed;
-    bottom: 1vh;
+    bottom: 15vh;
     right: 1vh;
     z-index: 99;
 
@@ -63,8 +63,8 @@ footer{
     gap: 1vh;
 
     & a{
-        width: 5vh;
-        height: 5vh;
+        width: 10vh;
+        height: 10vh;
 
         & img {
             height: 100%;
