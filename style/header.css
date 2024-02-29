@@ -133,11 +133,8 @@ div {
     color: black;
 }
 
+.selectn,
 .select {
-    color: goldenrod;
-}
-
-.selectn {
     color: white;
 }
 
@@ -152,7 +149,7 @@ div {
 
 /*lo mas dificil*/
 
-.header-fake {
+.header-fake{
     display: none;
 }
 
@@ -205,6 +202,10 @@ div {
 
         }
     }
+}
+
+#bar-menu-android.open{
+    display: block;
 }
 
 .submenu-a {
@@ -288,4 +289,9 @@ div {
 
         }
     }
+}
+
+.selectn:hover,
+.select:hover{
+    color: goldenrod;
 }

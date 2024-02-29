@@ -1,0 +1,15 @@
+main {
+    padding: 20vh 0 0 0;
+    background: url("../imagenes/fondo/fondo pagina web.jpg");
+
+    & h2{
+        color: #0556B1;
+        text-align: center;
+        text-decoration: underline .2vh #0556B1;
+        font-size: 2vh;
+    }
+    & p{
+        text-align: justify;
+        padding: 0 25%;
+    }
+}
