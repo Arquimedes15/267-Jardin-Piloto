@@ -24,7 +24,7 @@ img {
 }
 
 .main {
-    background: url("../imagenes/fondo/fondo pagina web.jpg");
+    background: url("../img/fondo/fondo pagina web.jpg");
     background-size: contain;
     width: 100%;
 
@@ -246,7 +246,7 @@ img {
 @media (max-width: 1024px) {
 
     .main {
-        background: url("../imagenes/fondo/fondo pagina web.jpg");
+        background: url("../img/fondo/fondo pagina web.jpg");
         background-size: contain;
         width: 100%;
 
