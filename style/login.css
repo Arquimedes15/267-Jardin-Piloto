@@ -4,7 +4,7 @@ footer{
 }
 main{
     height: 90vh;
-    background: url("../imagenes/fondo/fondo pagina web.jpg");
+    background: url("../img/fondo/fondo pagina web.jpg");
     background-size: contain;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@ main{
 }
 
 .bander{
-    background: url("../imagenes/fondo/BORDES.png");
+    background: url("../img/fondo/BORDES.png");
     position: fixed;
     top: 0;
     left: 0;
